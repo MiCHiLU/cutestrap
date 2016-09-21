@@ -61,11 +61,11 @@ Styleguide 1.1
   padding-left: 1rem;
   padding-right: 1rem;
 
-  &:first-child{
+  &:first-child:not(:last-child){
     margin-left: -1rem;
   }
 
-  &:last-child{
+  &:last-child:not(:first-child){
     margin-right: -1rem;
   }
 
